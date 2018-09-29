@@ -14,13 +14,13 @@ nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
 
 # 博主
 author: true
-name: '杨少侠'
-NickName: 'pipjing'
-webtitle: 'pipjing's blog'
+name:'杨少侠'
+NickName:'pipjing'
+webtitle:'pipjing's blog'
 bio: '英俊潇洒风流倜傥'
 about: true
-aboutyou: '永远是那个18岁的才思敏捷的杨少侠'
-portraits: '/assets/profile.jpeg' # your portraits image file path
+aboutyou:'永远是那个18岁的才思敏捷的杨少侠'
+portraits:'/assets/profile.jpeg' # your portraits image file path
 
 # SNS
 SNS: true
