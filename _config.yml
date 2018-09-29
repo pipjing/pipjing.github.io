@@ -85,7 +85,7 @@ baidu-url: '<script>
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?384a26d38c5f3247f1b9d021cebac125";
+  hm.src = "https://hm.baidu.com/hm.js?eeeb2b8ea013b3ca68755d5ab07647d3";
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
