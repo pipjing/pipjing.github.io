@@ -13,8 +13,31 @@
 <link rel="stylesheet" href="/assets/css/animate.min.css">
 <link rel="stylesheet" href="/assets/css/pygments/pygments_default.css">
 <link rel="stylesheet" href="/assets/css/github-markdown.css">
+<link rel="dns-prefetch" href="//cdn.mathjax.org" />
+<!-- mathjax -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    showProcessingMessages: false,
+    messageStyle: "none",
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+        inlineMath:  [ ["$", "$"] ],
+        displayMath: [ ["$$","$$"] ],
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code','a'],
+        ignoreClass:"comment-content"
+    },
+    "HTML-CSS": {
+        availableFonts: ["Asana Math","STIX","TeX"],
+        showMathMenu: false
+    }
+});
+MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+</script>
+<script src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <!-- SNS-icon -->
 <script src="//at.alicdn.com/t/font_856428_y9z6nq7zf5.js"></script>
+
 <!-- share.css -->
 <link rel="stylesheet" href="/assets/css/share.min.css">
 <!-- font -->
@@ -48,7 +71,7 @@ var _hmt = _hmt || [];
 <header id="index-header">
   <div class="top-center">
       <div class="logo">
-          <a href="/" title="my awesome webtitle">your awesome webtitle</a>
+          <a href="/" title="my awesome webtitle">pipjing's study world</a>
       </div>
       <nav class="top-nav">
           <ul>
@@ -70,7 +93,6 @@ var _hmt = _hmt || [];
         <a href="javascript:;" id="boot2" style="display: none;" onclick="document.getElementById('boot-area').style.display='none';document.getElementById('boot1').style.display='block';document.getElementById('boot2').style.display='none';"><img src="/assets/boot.png" alt=""></a>
       </div>
   </div>
-
 </header>
 
 <div id="boot-area">
@@ -109,7 +131,7 @@ var _hmt = _hmt || [];
 </main>
 <footer id="bottom">
   <br>
-  <span>your awesome title ©
+  <span>pipjing ©
   
   
   2018
